@@ -3,10 +3,6 @@ import React  from 'react';
 import './Cart.css';
 
 const Cart = (props) => {
-
-    // console.log(props.cart);
-
-    
     const cart = props.cart.map((item, index) => {
           
            return(
@@ -17,9 +13,6 @@ const Cart = (props) => {
         })
     
 
-
-   
-    // console.log(cart.length);
     return (
         <div className="d-flex flex-column mb-5 cart">
 
@@ -34,7 +27,6 @@ const Cart = (props) => {
                     <button onClick={props.orderNow}className="order-btn">Order Now</button>
             </div>
 
-            
         </div>
     );
 };

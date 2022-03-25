@@ -7,7 +7,6 @@ const Meals = (props) => {
             <div className="meal-card p-3  mt-5">
                 <div className="d-flex justify-content-center">
                     <img className="img-fluid rounded" src={strMealThumb} alt={strMeal} />
-
                 </div>
                <div className="p-3 d-flex flex-column justify-content-center mb-4">
                     <h5 className="my-3">{strMeal}</h5>

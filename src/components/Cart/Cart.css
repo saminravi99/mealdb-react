@@ -1,32 +1,19 @@
 .cart{
     position: relative;
     margin-top: 150px;
-    /* margin-bottom: 150px; */
     position: fixed;
-    /* max-width: 100%; */
-    /* top: 130px; */
     border: 1px solid #ccc;
-    /* padding: 10px; */
-    /* margin-right: 30px; */
-    /* min-height: 600px; */
     padding: 10px;
 }
 
 .btn-div{
-    /* position: absolute;
-    left: 15px;
-    bottom: 10px; */
     margin: 30px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    /* border: 1px solid rgb(187, 55, 55);  */
 }
 
-/* .clear-btn{
-    margin-right: 200px;
-} */
 
 .clear-btn{
     background-color: rgb(235, 61, 61);
@@ -48,6 +35,4 @@
 
 .ordered-meals-div{
     min-height: 100px;
-    /* overflow-y: scroll; */
-    /* border  : 1px solid rgb(170, 23, 23); */
 }

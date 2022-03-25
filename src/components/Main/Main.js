@@ -5,7 +5,6 @@ import Cart from "../Cart/Cart";
 import { addToDb, getStoredCart } from "../../utilities/objectLocalStorage";
 
 const Main = (props) => {
-    console.log(props.result);
 
     const [meals, setMeals] = useState([]);
 
@@ -21,7 +20,6 @@ const Main = (props) => {
             selectedMeal.quantity += 1;
             newCart = [...rest, selectedMeal];
         }
-        // console.log(props);
 
         setCart(newCart);
         addToDb(props.idMeal);

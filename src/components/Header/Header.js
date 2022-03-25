@@ -41,7 +41,7 @@ const Header = (props) => {
                         </li>
                     </ul>
                     <div className="d-flex ms-5">
-                        <input onChange={props.handleChange} name="input" value={props.input?.input}className="form-control me-2" type="search" placeholder="Search Food" aria-label="Search"/>
+                        <input onChange={props.handleChange} name="input" className="form-control me-2" type="search" placeholder="Search Food" aria-label="Search"/>
                         <button onClick={() => props.handleSearch(props.input)} className="search-btn ">Search</button>
                     </div>
                     </div>
