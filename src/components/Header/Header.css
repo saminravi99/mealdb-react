@@ -1,0 +1,36 @@
+.navbar{
+    background-color: #23180d;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+ul > li{
+    margin-left: 30px;
+    transition: background-color 0.2s linear;
+    border-radius: 5px;
+
+}
+
+.active{
+    background-color: #C52D2F;
+    border-radius: 5px;
+
+}
+
+ul>li:hover{
+    background-color: #C52D2F;
+    border-radius: 5px;
+}
+
+.search-btn{
+    background-color: rgb(31, 236, 185);
+    color: rgb(26, 24, 24);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
